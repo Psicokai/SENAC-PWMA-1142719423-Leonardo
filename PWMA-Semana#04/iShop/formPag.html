@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Forma de Pagamento</title>
+</head>
+<body>
+    <header>
+        <h1>Seleção de Forma de Pagamento</h1>
+      <hr>
+      <li><a href="index.html"> Página Inicial </a></li>
+    </header>
+
+    <main>
+        <section>
+            <h2>Selecione as formas de pagamentos</h2>
+            <form action="processar_pagamento.php" method="post">
+                <label>
+                    <input type="checkbox" id="pix" name="forma_pagamento[]" value="pix">
+                    Pix
+                </label><br>
+
+                <label>
+                    <input type="checkbox" id="cartao_debito" name="forma_pagamento[]" value="cartao_debito">
+                    Cartão de Débito
+                </label><br>
+
+                <label>
+                    <input type="checkbox" id="cartao_credito" name="forma_pagamento[]" value="cartao_credito">
+                    Cartão de Crédito
+                </label><br>
+
+                <label>
+                    <input type="checkbox" id="boleto" name="forma_pagamento[]" value="boleto">
+                    Boleto
+                </label><br>
+
+                <button type="submit">Continuar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 iShop.</p>
+    </footer>
+</body>
+</html>
