@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleção de Forma de Entrega</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Seleção de Forma de Entrega</h1>
+    <li><a href="index.html"> Página Inicial </a></li>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Escolha sua forma de entrega</h2>
+      <form action="processar_entrega.php" method="post">
+        <label>
+          <input type="checkbox" id="sedex" name="forma_entrega[]" value="sedex">
+          Sedex
+        </label><br>
+
+        <label>
+          <input type="checkbox" id="expresso" name="forma_entrega[]" value="expresso">
+          Express
+        </label><br>
+
+        <label>
+          <input type="checkbox" id="retirada" name="forma_entrega[]" value="retirada">
+          Retirada
+        </label><br>
+
+        <button type="submit">Continuar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 iShop.</p>
+  </footer>
+</body>
+
+</html>

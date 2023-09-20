@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.header .logo {
+  margin: 0;
+  font-size: 36px;
+}
+
+.navbar {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.destaque {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  margin-right: 10px; /* Adicionei margem direita para separar os produtos */
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: calc(20% - 10px); /* Dividir em 5 colunas com margem direita entre elas */
+  display: inline-block; /* Tornar os produtos em linha */
+  vertical-align: top; /* Alinhar produtos ao topo */
+  box-sizing: border-box;
+  text-align: left; /* Alinhar texto à esquerda */
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.edit-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.edit-button:hover {
+  background-color: #ff3300;
+}
+.login {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos adicionais para melhorar a aparência do login */
+.login-form, .signup-form {
+  display: none;
+  text-align: right;
+  padding: 10px;
+}
