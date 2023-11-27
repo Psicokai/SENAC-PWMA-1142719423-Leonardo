@@ -1,1 +1,1 @@
-Repósitorio destinado as entregas das ativitidades das aulas de Programação Web.
+Repósitorio destinado as entregas das atividades das aulas de Programação Web.
